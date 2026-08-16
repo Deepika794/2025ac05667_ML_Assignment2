@@ -121,12 +121,12 @@ MODEL_FILES = {
 
 @st.cache_resource
 def load_preprocessor():
-    return joblib.load("preprocessor.pkl")
+    return joblib.load("model/preprocessor.pkl")
 
 
 @st.cache_resource
 def load_scaler():
-    return joblib.load("scaler.pkl")
+    return joblib.load("model/scaler.pkl")
 
 
 @st.cache_resource
