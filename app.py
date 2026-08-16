@@ -520,9 +520,7 @@ else:
             )
 
             st.dataframe(
-                cm_df.style.background_gradient(
-                    cmap="Blues"
-                ),
+                cm_df,
                 use_container_width=True
             )
 
