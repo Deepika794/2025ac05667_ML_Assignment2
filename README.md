@@ -68,10 +68,9 @@ The five classification models were evaluated using Accuracy, AUC, Precision, Re
 Decision Tree can be considered the preferred model when F1 Score and Recall are given higher importance, as it achieved the highest F1 Score (0.4386) and Recall (0.4808) among the evaluated models.
 However, no single model performs best across all evaluation metrics. Random Forest achieved the highest AUC (0.8939), while Logistic Regression achieved the highest Accuracy (0.8917) and Precision (0.5536).
 Therefore, the preferred model depends on the evaluation metric and the objective of the classification problem.
+
 ## Streamlit Application
-
 The Streamlit application allows users to:
-
 - Upload a test CSV file
 - Select a machine learning model
 - Generate predictions
