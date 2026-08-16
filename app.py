@@ -295,7 +295,7 @@ if y.dtype == "object":
         })
     )
 
-y = y.astype(int)
+y = y.astype(str).str.strip().str.lower().map({"no": 0, "yes": 1})
 
 
 # ============================================================
