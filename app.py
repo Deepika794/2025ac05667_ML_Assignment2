@@ -952,36 +952,36 @@ st.dataframe(
 # NO "WINNER" DECLARATION
 # ============================================================
 
+
 st.markdown(
-    '<div class="section-title">💡 Comparison Summary</div>',
+    '<div class="section-title">🏆 Overall Comparison & Conclusion</div>',
     unsafe_allow_html=True
 )
-
 
 st.markdown(
     """
-    The models show different strengths across the evaluation metrics.
+    <div class="comparison-note">
 
-    **Accuracy** represents the overall proportion of correctly
-    classified observations, while **AUC** measures the ability of
-    the model to distinguish between the two classes.
+    <b>Overall Conclusion</b><br><br>
 
-    **Precision** indicates the proportion of predicted positive
-    observations that are actually positive, whereas **Recall**
-    measures how many actual positive observations are correctly
-    identified.
+    Decision Tree achieved the highest F1 Score (<b>0.4386</b>)
+    and Recall (<b>0.4808</b>) among the evaluated models, making it
+    the strongest model when F1 Score is considered the primary
+    comparison criterion.<br><br>
 
-    **F1 Score** provides a balance between precision and recall,
-    while **MCC** evaluates binary classification performance using
-    all four categories of the confusion matrix.
+    However, no single model dominates across all evaluation metrics.
+    Random Forest achieved the highest AUC (<b>0.8939</b>), indicating
+    strong class-discrimination capability, while Logistic Regression
+    achieved the highest Accuracy (<b>0.8917</b>) and Precision
+    (<b>0.5536</b>).<br><br>
 
-    Hence, the appropriate model depends on the evaluation metric
-    and the objective of the classification problem. No single
-    model is declared as an overall winner here.
+    Therefore, model selection depends on the evaluation metric and
+    the specific application objective.
+
+    </div>
     """,
     unsafe_allow_html=True
 )
-
 
 # ============================================================
 # SELECTED MODEL SUMMARY
