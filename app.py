@@ -107,11 +107,11 @@ st.markdown(
 # ============================================================
 
 MODEL_FILES = {
-    "Logistic Regression": "logistic_regression.pkl",
-    "Decision Tree": "decision_tree.pkl",
-    "kNN": "knn.pkl",
-    "Naive Bayes": "naive_bayes.pkl",
-    "Random Forest": "random_forest.pkl"
+    "Logistic Regression": "model/logistic_regression.pkl",
+    "Decision Tree": "model/decision_tree.pkl",
+    "kNN": "model/knn.pkl",
+    "Naive Bayes": "model/naive_bayes.pkl",
+    "Random Forest": "model/random_forest.pkl"
 }
 
 
